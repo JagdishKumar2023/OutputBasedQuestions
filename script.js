@@ -122,13 +122,72 @@
 // console.log(number);
 
 // 14..
-function getAge(...args) {
-  console.log(typeof args);
-}
+// function getAge(...args) {
+//   console.log(typeof args);
+// }
 
-getAge(21);
+// getAge(21); // output object
 
-//15..
+// 15..
 
-const sum = eval("10*10+5");
-console.log(sum);
+// const sum = eval("10*10+5");
+// console.log(sum); // output 105
+
+// //16..
+// let a = []; memoery location is differcent
+// let b = []; in this array
+// console.log(a == b);
+// console.log(a === b);
+//output = false ,false
+
+//17..
+// let a = []; //memoery location is same in Array
+// let b = a;
+// console.log(a == b);
+// console.log(a === b);
+// // output = true, true
+
+// 18..
+// let a = [20]; // number
+// let b = ["20"]; // string
+// console.log(a[0] == b[0]); // output = true
+// console.log(a[0] === b[0]); // output = false
+
+//19..
+// let z = [1, 2, 3, 4];
+// let a = { name: "anil" };
+// console.log(...z); // output = 1 2 3 4 destructure the array with spread oprators
+
+// 20..
+// console.log(typeof NaN);
+// // output is number always in javascript is special type
+
+//21 ..
+// let data = 10 - -15;
+// console.log(data); //  - - = + then output is = 25
+
+//22..
+// const set = new Set([1, 1, 2, 2, 3, 3, 4, 5]);
+// console.log(set); // Remove the same value and return the object
+
+//23..
+// let data = { name: "Anil" }; // confusion in this code
+// console.log(delete data.smail);
+
+//24..
+// const data = ["Peter", "anil", "sonu"];
+// const [y] = data;
+// console.log(y);
+// output is = Peter you can use the z and x variable then rest of array element is print
+
+//25.. without . operators find the value
+// const data = { name: "anil", age: "29", skill: "MERN" };
+// const { skill, age } = data;
+// console.log(skill, age);
+// // output = MERN, 29
+
+//26.. Merge two object
+let data = { name: "ajay", age: "15", skill: "JS" };
+let info = { city: "khandwa", mail: "anil@test.com" };
+mergeObj = { ...data, ...info };
+console.log(mergeObj);
