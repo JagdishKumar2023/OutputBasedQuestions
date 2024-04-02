@@ -187,7 +187,73 @@
 // // output = MERN, 29
 
 //26.. Merge two object
-let data = { name: "ajay", age: "15", skill: "JS" };
-let info = { city: "khandwa", mail: "anil@test.com" };
-mergeObj = { ...data, ...info };
-console.log(mergeObj);
+// let data = { name: "ajay", age: "15", skill: "JS" };
+// let info = { city: "khandwa", mail: "anil@test.com" };
+// mergeObj = { ...data, ...info };
+// console.log(mergeObj);
+
+// OR Methods
+
+// let dataValue = { name: "jagdish", skill: "react developer", age: "23" };
+// let infoValue = { city: "Noida", skill: "Node.js" };
+// dataStore = { ...dataValue, ...infoValue };
+// console.log(dataStore);
+
+//27..
+// const result = false || {} || null;
+// if (null) {
+//   console.log("yes");
+// } output = {}
+
+//28..
+// const result = [] || 0 || true;
+// console.log(result);
+// output = []
+
+//29..
+// console.log(Promise.resolve(5));k
+
+//30..
+// console.log("💖" === "💖");
+// output = true
+
+//31..
+
+// let name = "sidhu";
+
+// function getName() {
+//   // let scope is block
+//   let name = "anil";
+// }
+// getName();
+
+//32..
+// let nameis = "anil";
+
+// function getName() {
+//   console.log(nameis);
+// }
+// getName();
+
+//33..
+// console.log(`${((x) => x)("I Love ")} "to programe"`);
+
+//34..
+
+// function sumValue(x, y, z) {
+//   return x + y + z;
+// }
+// console.log(sumValue(...[1, 2, 8]));
+
+//35..
+const name = "code step by step";
+console.log(!typeof nameNO === "object"); // false
+console.log(!typeof nameYes === "string"); // false
+console.log(!typeof nameHell === false); // true
+
+//36..
+const nameOfSubcrib = "Subcribe"; //true
+const age = 21; // false
+
+console.log(isNaN(nameOfSubcrib));
+console.log(isNaN(age));
