@@ -246,14 +246,81 @@
 // console.log(sumValue(...[1, 2, 8]));
 
 //35..
-const name = "code step by step";
-console.log(!typeof nameNO === "object"); // false
-console.log(!typeof nameYes === "string"); // false
-console.log(!typeof nameHell === false); // true
+// const name = "code step by step";
+// console.log(!typeof nameNO === "object"); // false
+// console.log(!typeof nameYes === "string"); // false
+// console.log(!typeof nameHell === false); // true
 
-//36..
-const nameOfSubcrib = "Subcribe"; //true
-const age = 21; // false
+// //36..
+// const nameOfSubcrib = "Subcribe"; //true
+// const age = 21; // false
 
-console.log(isNaN(nameOfSubcrib));
-console.log(isNaN(age));
+// console.log(isNaN(nameOfSubcrib));
+// console.log(isNaN(age));
+
+// let number = 0;
+// console.log(number++);
+// console.log(++number);
+// console.log(number);
+
+//37..
+// let data = [2, 4, 0, 8, 9];
+// // remove the last element
+// data.pop();
+// console.log(data);
+// // output = 2,4,0,8
+
+// let dataV = [2, 4, 6, 8, 10];
+// dataV.pop();
+// console.log(dataV);
+// // output = 2,4,6,8
+
+//38..
+// let data = {
+//   name: "jagdish",
+//   class: "15",
+// };
+// delete data.class;
+// console.log(data);
+
+//39..
+// let data = "true";
+// // convert data to boolean false value
+// console.log(!data); // output = false
+
+//40..
+// let data = "true";
+// //convert data to boolean true value
+// console.log(data); // output = true
+
+// //41..
+// let a = 2;
+// setTimeout(() => {
+//   console.log(a);
+// }, 0);
+// a = 100;
+
+//42..
+// function fruit() {
+//   console.log(name);
+//   console.log(price);
+
+//   var name = "Apple";
+//   let price = "160";
+//   //output = hosting rule apply
+// }
+// fruit();
+
+//43..
+// function getAge() {
+//   "use strict";
+//   age = 21;
+//   console.log(age);
+// }
+// getAge();
+// output = age is not defined beause you cannot assgined the variable in the age
+
+//44..
+const sum = eval("10*10+5-5");
+console.log(sum);
+//output = 100 because eval is make the experission the value and multipy them
