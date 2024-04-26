@@ -1,25 +1,25 @@
 //1..
-// // let randomValue = { name: "Kiran" };
-// // randomValue = 23;
-// // console.log(!typeof randomValue);
+// let randomValue = { name: "Kiran" };// false
+// randomValue = 23;
+// console.log(!typeof randomValue); // output = 100
 
-// // if (!typeof randomValue === "string") {
-// //   console.log("its not a string");
-// // } else {
-// //   console.log("Its a string ");
-// // }
+// if (!typeof randomValue === "string") {
+//   console.log("its not a string");
+// } else {
+//   console.log("Its a string");
+// }
+
 //2..
-// // const user = {
-// //   email: "myemail@gmail.com",
-// //   updateEmail: (email) => {
-// //     this.email = email;
-// //   },
-// // };
-// // user.updateEmail("jagdishNewGmail@gmail.com");
+// const user = {
+//   email: "myemail@gmail.com",
+//   updateEmail: (email) => {
+//     this.email = email;
 
-// // // console.log(user.email);
-
-// // console.log(this);
+//   },
+// };
+// user.updateEmail("jagdishNewGmail@gmail.com");
+// // console.log(user.email)
+// console.log(this);
 
 //3..
 
@@ -70,7 +70,7 @@
 //   size: "small",
 // };
 
-//      Output
+//  Output
 // console.log(bird[data]); // small
 // console.log(bird["size"]); // small
 // console.log(bird.size); // small
@@ -93,11 +93,11 @@
 // console.log(x);
 // x is already been declared
 
-// //10..
+//10..
 // var x;
 // var x = 10;
 // console.log(x);
-//output is 10
+// output is 10
 
 //11..
 // let a = 3; // number
@@ -160,7 +160,7 @@
 
 // 20..
 // console.log(typeof NaN);
-// // output is number always in javascript is special type
+// output is number always in javascript is special type
 
 //21 ..
 // let data = 10 - -15;
@@ -203,19 +203,20 @@
 // const result = false || {} || null;
 // if (null) {
 //   console.log("yes");
-// } output = {}
+// }
+// output = {};
 
 //28..
 // const result = [] || 0 || true;
 // console.log(result);
-// output = []
+// output = [];
 
 //29..
-// console.log(Promise.resolve(5));k
+// console.log(Promise.resolve(5));
 
 //30..
 // console.log("💖" === "💖");
-// output = true
+// output = true;
 
 //31..
 
@@ -228,6 +229,7 @@
 // getName();
 
 //32..
+
 // let nameis = "anil";
 
 // function getName() {
@@ -293,7 +295,7 @@
 // //convert data to boolean true value
 // console.log(data); // output = true
 
-// //41..
+//41..
 // let a = 2;
 // setTimeout(() => {
 //   console.log(a);
@@ -321,6 +323,6 @@
 // output = age is not defined beause you cannot assgined the variable in the age
 
 //44..
-const sum = eval("10*10+5-5");
-console.log(sum);
+// const sum = eval("10*10+5-5");
+// console.log(sum);
 //output = 100 because eval is make the experission the value and multipy them
